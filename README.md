@@ -1,16 +1,32 @@
-## Hi there 👋
+## Denis Kozlov
 
-<!--
-**dkozlov-code/dkozlov-code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend-разработчик. Пишу асинхронные сервисы на Python и довожу их до прода: схема БД, API, очереди, контейнеры, пайплайн деплоя.
 
-Here are some ideas to get you started:
+Магистратура по математическому обеспечению и администрированию информационных систем, Кемеровский государственный университет, выпуск 2027.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Стек
+
+**Языки** Python, JavaScript
+**Backend** FastAPI, asyncio, SQLAlchemy 2.0, Alembic, Pydantic v2, JWT / OAuth2, REST API
+**Данные** PostgreSQL, Redis, RabbitMQ
+**Инфраструктура** Docker, Docker Compose, GitLab CI, GitHub Actions, Linux, Nginx, Prometheus
+**CV / ML** CVAT, nuclio, ONNX Runtime, SegFormer, SAM, Intel RealSense
+**Frontend / Desktop** Vue 3, Svelte, Electron
+
+### Рабочие проекты
+
+Код закрыт, поэтому коротко о том, что делал в Кемеровском государственном университете с октября 2024:
+
+**Онлайн-перевод лекций** — backend системы распознавания речи и перевода в реальном времени. Задержка 1–3 секунды от речи до готового текста, пилот на 50 пользователей, команда из 4 человек. Python, FastAPI, asyncio.
+
+**Автоматическая разметка дорожных дефектов** — встроил модель сегментации SegFormer в платформу разметки CVAT через serverless-функции nuclio; ручная разметка ускорилась в 4–10 раз. Доработал CVAT под пайплайн «текстовый запрос — предсказание» с моделью SAM3.
+
+**КольпоСкан** — десктопное приложение на Electron для определения патологий на кольпоскопических изображениях.
+
+**Пропускная система с распознаванием лиц** — закрыл уязвимость с подменой лица фотографией, добавив проверку по кадрам глубины с камеры Intel RealSense.
+
+Плюс CI/CD-пайплайны в более чем 4 репозиториях на GitLab, GitHub и GitVerse.
+
+### Контакты
+
+[Telegram](https://t.me/whya1ive7) · [d.kozlov2205@gmail.com](mailto:d.kozlov2205@gmail.com)
