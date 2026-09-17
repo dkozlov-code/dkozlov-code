@@ -7,10 +7,15 @@ Backend-разработчик. Пишу асинхронные сервисы �
 ### Стек
 
 **Языки** Python, JavaScript
+
 **Backend** FastAPI, asyncio, SQLAlchemy 2.0, Alembic, Pydantic v2, JWT / OAuth2, REST API
+
 **Данные** PostgreSQL, Redis, RabbitMQ
+
 **Инфраструктура** Docker, Docker Compose, GitLab CI, GitHub Actions, Linux, Nginx, Prometheus
+
 **CV / ML** CVAT, nuclio, ONNX Runtime, SegFormer, SAM, Intel RealSense
+
 **Frontend / Desktop** Vue 3, Svelte, Electron
 
 ### Рабочие проекты
